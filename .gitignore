@@ -1,0 +1,27 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv
+
+# 训练好的模型文件
+*.h5
+*.pkl
+*.pt
+*.onnx
+model/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 仅忽略这个超大文件
+mnist_data.csv
